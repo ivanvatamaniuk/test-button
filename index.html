@@ -3,18 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Test Button</title>
-</head>
-<body style="display:flex;justify-content:center;align-items:center;height:100vh;">
-<a href="https://example.com" style="
+<title>Button</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  a {
     display: inline-block;
-    padding: 15px 30px;
-    background-color: #007bff;
-    color: white;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
+    border-radius: 6px;
     font-family: sans-serif;
-">Click Me!</a>
+    font-size: 16px;
+  }
+  a:hover {
+    background: #0056b3;
+  }
+</style>
+</head>
+<body>
+  <a href="https://example.com" target="_blank" rel="noopener noreferrer">Click Me!</a>
 </body>
 </html>
